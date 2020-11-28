@@ -48,12 +48,12 @@ module.exports = {
   },
   service2: {
     api: '/restaurants/:resID/reviews',
-    url: 'http://localhost:3002',
+    url: 'http://localhost:3000',
     bundle: 'bundle.js',
   },
   service3: {
-    api: '/restaurants/:restaurant_id/',
-    url: 'http://localhost:3003',
+    api: '/restaurants/:restaurant_id/photos',
+    url: 'http://localhost:3001',
     bundle: 'bundle.js',
   }
 };
